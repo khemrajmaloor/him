@@ -204,9 +204,9 @@ header .nav__list .nav__link:hover {
 .nav-open .nav {
   transform: translateX(0); /* When nav-open is active, the menu is visible */
   transition: transform 0.3s ease;
+  max-height: 100%;
 }
 .nav-open .nav-toggle {
-  position: fixed;
   position: fixed;
 }
 .nav-open .hamburger {

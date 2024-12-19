@@ -318,7 +318,8 @@ header .nav__list .nav__link:hover {
   }
   .intro__img {
     grid-area: img;
-    max-width: 294px;
+    max-width:394px;
+    max-height:354px;
     aspect-ratio: 294/325;
     position: relative;
     z-index: -1;
